@@ -1,0 +1,7 @@
+
+<resources>
+    <string name="app_name">almabad</string>
+    <string name="facebook_app_id">494452129748040</string>
+    <string name="fb_login_protocol_scheme">fb494452129748040</string>
+    <string name="facebook_client_token">d30bf1d357fe4f32834fd7db79ad32b7</string>
+</resources>

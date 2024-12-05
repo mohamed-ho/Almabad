@@ -4,15 +4,17 @@
 
 ## screenshots
 <div>
-<img src="https://github.com/user-attachments/assets/12bf2729-3a9a-4ddf-b4da-b695abefea85" with = 175 height = 275>
-<img src="https://github.com/user-attachments/assets/f55ea8c0-9337-4d2c-a54f-c89aab15f7f7" with = 175 height = 275>
-<img src="https://github.com/user-attachments/assets/9149509c-937a-46a1-a7c0-05436c6bae93" with = 175 height = 275>
-<img src="https://github.com/user-attachments/assets/97c7098d-c266-43ce-9940-7b0de8a40d69" with = 175 height = 275>
-<img src="https://github.com/user-attachments/assets/528d56a8-d465-4e2b-bd52-3c6edab51e7c" with = 175 height = 275>
-<img src="https://github.com/user-attachments/assets/8c41ceb2-b325-453b-a666-218713f0e290" with = 175 height = 275>
-<img src="https://github.com/user-attachments/assets/b0c12437-d815-46a4-8c2d-501bca7b93c9" with = 175 height = 275>
+<img src="https://github.com/user-attachments/assets/12bf2729-3a9a-4ddf-b4da-b695abefea85" with = 250 height = 340>
+<img src="https://github.com/user-attachments/assets/f55ea8c0-9337-4d2c-a54f-c89aab15f7f7" with = 250 height = 340>
+<img src="https://github.com/user-attachments/assets/9149509c-937a-46a1-a7c0-05436c6bae93" with = 250 height = 340>
+<img src="https://github.com/user-attachments/assets/97c7098d-c266-43ce-9940-7b0de8a40d69" with = 250 height = 340>
+<img src="https://github.com/user-attachments/assets/528d56a8-d465-4e2b-bd52-3c6edab51e7c" with = 250 height = 340>
+<img src="https://github.com/user-attachments/assets/8c41ceb2-b325-453b-a666-218713f0e290" with = 250 height = 340>
+<img src="https://github.com/user-attachments/assets/b0c12437-d815-46a4-8c2d-501bca7b93c9" with = 250 height = 340>
 </div>
 
+## gif 
+<img src="https://github.com/user-attachments/assets/e27afe78-91d3-471c-8a86-a3973577fec8" with = 250 height = 340>
 ---
 
 ## Features  

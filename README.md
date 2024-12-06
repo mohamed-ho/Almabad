@@ -15,7 +15,7 @@
 
 ## gif 
 <img src="https://github.com/user-attachments/assets/e27afe78-91d3-471c-8a86-a3973577fec8" with = 250 height = 340>
----
+
 
 ## Features  
 - **Comprehensive Temple Information**:  
@@ -36,7 +36,4 @@
 - **Shared Preferences**: For caching data  
 - **Clean Architecture**: For structured and maintainable code  
 
-## Installation  
-1. Clone the repository:  
-   ```bash  
-   git clone https://github.com/YourGitHubUsername/Al-Mabad.git  
+

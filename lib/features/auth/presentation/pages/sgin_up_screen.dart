@@ -1,3 +1,6 @@
+import 'package:almabad/config/routes/app_routes.dart';
+import 'package:almabad/core/functions/error__dialog.dart';
+import 'package:almabad/core/functions/loading_dialog.dart';
 import 'package:almabad/core/functions/validation.dart';
 import 'package:almabad/core/widgets/custom_elevated_button.dart';
 import 'package:almabad/features/auth/domain/entities/user.dart';
@@ -38,34 +41,17 @@ class _SginUpScreenState extends State<SginUpScreen> {
           child: BlocListener<AuthCubit, AuthState>(
             listener: (context, state) {
               if (state is AuthLoadingState) {
-                showDialog(
-                    context: context,
-                    builder: (context) => const AlertDialog(
-                          backgroundColor: Colors.transparent,
-                          content: Center(
-                            child: CircularProgressIndicator(),
-                          ),
-                        ));
+                loadingDialog(context);
               } else if (state is AuthErrorState) {
-                showDialog(
-                    context: context,
-                    builder: (context) => AlertDialog(
-                          title: const Text('error'),
-                          content: Text(state.message),
-                          actions: [
-                            ElevatedButton(
-                              onPressed: () {},
-                              style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.red,
-                                  foregroundColor: Colors.white),
-                              child: const Text('OK'),
-                            )
-                          ],
-                        ));
-              } else if (state is AuthLoadedState) {
                 Navigator.pop(context);
-                ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text('Success process')));
+                errorDialog(context, state.message);
+              } else if (state is AuthLoadedState) {
+                Navigator.pushNamedAndRemoveUntil(
+                    context, AppRoutes.loginScreen, (route) => false);
+                ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+                  content: Text('Success process'),
+                  backgroundColor: Colors.green,
+                ));
               }
             },
             child: Column(

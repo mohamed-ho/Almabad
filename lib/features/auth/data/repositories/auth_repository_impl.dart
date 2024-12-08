@@ -39,8 +39,11 @@ class AuthRepositoryImpl implements AuthRepository {
     try {
       switch (loginType) {
         case LoginType.emailAndPassword:
-          return Right(
-              await authRemoteDataSouce.login(UserModel.fromUser(user!)));
+          {
+            print('we are here  ${user!.email} ${user.password}');
+            return Right(
+                await authRemoteDataSouce.login(UserModel.fromUser(user)));
+          }
         case LoginType.google:
           return Right(await authRemoteDataSouce.signInWithGoogle());
         case LoginType.facebook:

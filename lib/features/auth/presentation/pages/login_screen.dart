@@ -132,7 +132,7 @@ _listen(BuildContext context, AuthState state) {
     Navigator.pop(context);
     if (state.user.verified) {
       Navigator.pushNamedAndRemoveUntil(
-          context, AppRoutes.homeScreen, (route) => true);
+          context, AppRoutes.homeScreen, (route) => false);
     } else {
       showDialog(
           context: context, builder: (context) => const VerifyEmailWidget());

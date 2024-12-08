@@ -10,6 +10,6 @@ class LoginUsercase {
 
   Future<Either<Failure, User>> call(
       {User? user, required LoginType loginType}) async {
-    return await authRepository.login(loginType: loginType);
+    return await authRepository.login(user: user, loginType: loginType);
   }
 }
